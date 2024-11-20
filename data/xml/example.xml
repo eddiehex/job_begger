@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>大学招聘信息</title>
+        <link>https://example.com/jobs</link>
+        <description>大学招聘信息RSS订阅</description>
+        <language>zh-cn</language>
+        <pubDate>Wed, 21 Nov 2024 12:00:00 +0800</pubDate>
+        <lastBuildDate>Wed, 21 Nov 2024 12:00:00 +0800</lastBuildDate>
+        <item>
+            <title>示例招聘标题</title>
+            <link>https://example.com/job/1</link>
+            <description>职位描述内容</description>
+            <pubDate>Wed, 21 Nov 2024 10:00:00 +0800</pubDate>
+            <guid>https://example.com/job/1</guid>
+            <category>招聘信息</category>
+        </item>
+    </channel>
+</rss>

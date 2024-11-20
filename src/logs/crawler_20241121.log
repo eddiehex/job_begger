@@ -502,3 +502,34 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/eddieho/hx_for_h
 2024-11-21 01:41:56,346 - src.hust_job_crawl - INFO - Found 15 new jobs on page 2
 2024-11-21 01:41:56,364 - src.hust_job_crawl - INFO - Saved 30 new jobs to data/xml/hust_jobs.xml
 2024-11-21 01:41:56,366 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:41:56] "GET /rss/hust HTTP/1.1" 200 -
+2024-11-21 02:24:42,614 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.238:5001
+2024-11-21 02:24:42,614 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 02:24:48,687 - rss_server - INFO - RSS request received for 华中科技大学
+2024-11-21 02:24:48,977 - src.hust_job_crawl - INFO - Processing page 1
+2024-11-21 02:24:48,977 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 02:24:51,112 - src.hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 02:24:51,114 - src.hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 02:24:51,114 - src.hust_job_crawl - INFO - Found 15 new jobs on page 1
+2024-11-21 02:24:53,118 - src.hust_job_crawl - INFO - Processing page 2
+2024-11-21 02:24:53,119 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 02:24:55,088 - src.hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 02:24:55,089 - src.hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 02:24:55,089 - src.hust_job_crawl - INFO - Found 15 new jobs on page 2
+2024-11-21 02:24:55,108 - rss_server - ERROR - Error running crawler for hust: 'NoneType' object has no attribute 'append'
+2024-11-21 02:24:55,109 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 02:24:55] "[36mGET /rss/hust HTTP/1.1[0m" 304 -
+2024-11-21 02:25:38,139 - rss_server - INFO - RSS request received for 大连理工大学
+2024-11-21 02:25:38,144 - src.dlut_job_crawl - INFO - Processing page 1/2
+2024-11-21 02:25:38,144 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=0&size=15 (Attempt 1/3)
+2024-11-21 02:25:40,261 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 02:25:40,263 - src.dlut_job_crawl - INFO - Found 15 job listings
+2024-11-21 02:25:40,263 - src.dlut_job_crawl - INFO - Found 15 new jobs on page 1
+2024-11-21 02:25:42,268 - src.dlut_job_crawl - INFO - Processing page 2/2
+2024-11-21 02:25:42,269 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=1&size=15 (Attempt 1/3)
+2024-11-21 02:25:44,048 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 02:25:44,049 - src.dlut_job_crawl - INFO - Found 15 job listings
+2024-11-21 02:25:44,049 - src.dlut_job_crawl - INFO - Found 15 new jobs on page 2
+2024-11-21 02:25:46,072 - src.dlut_job_crawl - INFO - Saved 30 new jobs to data/xml/dlut_jobs.xml
+2024-11-21 02:25:46,074 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 02:25:46] "GET /rss/dlut HTTP/1.1" 200 -

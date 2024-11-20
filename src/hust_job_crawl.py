@@ -5,6 +5,7 @@ import re
 from datetime import datetime
 from utils.request_utils import fetch_page
 from utils.log_utils import setup_logger, get_logger
+from utils.format_utils import save_jobs_to_xml
 import time
 
 def parse_job_list(html_content):
@@ -114,46 +115,46 @@ def load_existing_jobs(output_path):
         
     return existing_jobs
 
-def save_jobs_to_xml(jobs, output_path, mode='w'):
-    """Save jobs to XML file"""
-    if mode == 'a' and output_path.exists():
-        # Load existing content
-        with open(output_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        soup = BeautifulSoup(content, 'lxml-xml')
-        jobs_elem = soup.find('jobs')
-    else:
-        # Create new XML structure
-        content = '<?xml version="1.0" encoding="UTF-8"?>\n<jobs>\n</jobs>'
-        soup = BeautifulSoup(content, 'lxml-xml')
-        jobs_elem = soup.find('jobs')
+# def save_jobs_to_xml(jobs, output_path, mode='w'):
+#     """Save jobs to XML file"""
+#     if mode == 'a' and output_path.exists():
+#         # Load existing content
+#         with open(output_path, 'r', encoding='utf-8') as f:
+#             content = f.read()
+#         soup = BeautifulSoup(content, 'lxml-xml')
+#         jobs_elem = soup.find('jobs')
+#     else:
+#         # Create new XML structure
+#         content = '<?xml version="1.0" encoding="UTF-8"?>\n<jobs>\n</jobs>'
+#         soup = BeautifulSoup(content, 'lxml-xml')
+#         jobs_elem = soup.find('jobs')
 
-    # Add new jobs
-    for job in jobs:
-        job_elem = soup.new_tag('job')
+#     # Add new jobs
+#     for job in jobs:
+#         job_elem = soup.new_tag('job')
         
-        title_elem = soup.new_tag('title')
-        title_elem.string = job['title']
-        job_elem.append(title_elem)
+#         title_elem = soup.new_tag('title')
+#         title_elem.string = job['title']
+#         job_elem.append(title_elem)
         
-        url_elem = soup.new_tag('url')
-        url_elem.string = job['url']
-        job_elem.append(url_elem)
+#         url_elem = soup.new_tag('url')
+#         url_elem.string = job['url']
+#         job_elem.append(url_elem)
         
-        type_elem = soup.new_tag('type')
-        type_elem.string = job['type']
-        job_elem.append(type_elem)
+#         type_elem = soup.new_tag('type')
+#         type_elem.string = job['type']
+#         job_elem.append(type_elem)
         
-        date_elem = soup.new_tag('publish_date')
-        date_elem.string = job['publish_date']
-        job_elem.append(date_elem)
+#         date_elem = soup.new_tag('publish_date')
+#         date_elem.string = job['publish_date']
+#         job_elem.append(date_elem)
         
-        jobs_elem.append(job_elem)
-        jobs_elem.append(soup.new_string('\n'))
+#         jobs_elem.append(job_elem)
+#         jobs_elem.append(soup.new_string('\n'))
 
-    # Save to file
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(str(soup.prettify()))
+#     # Save to file
+#     with open(output_path, 'w', encoding='utf-8') as f:
+#         f.write(str(soup.prettify()))
 
 def main():
     # Setup logging
@@ -211,8 +212,8 @@ def main():
         
     # Save all new jobs
     if all_new_jobs:
-        save_jobs_to_xml(all_new_jobs, output_path, 
-                        mode='a' if existing_jobs else 'w')
+        save_jobs_to_xml(all_new_jobs, output_path, '华中科技大学', mode='a' if existing_jobs else 'w')
+
         logger.info(f"Saved {len(all_new_jobs)} new jobs to {output_path}")
     else:
         logger.info("No new jobs to save")
