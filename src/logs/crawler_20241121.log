@@ -1,0 +1,504 @@
+2024-11-21 00:18:15,313 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_5.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:18:17,937 - __main__ - INFO - Successfully fetched HTML content
+2024-11-21 00:18:17,954 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:18:17,956 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:18:17,957 - __main__ - INFO - Successfully converted 15 job listings to XML
+2024-11-21 00:18:17,957 - __main__ - INFO - Output saved to: data/xml/jobs_20241121.xml
+2024-11-21 00:33:34,769 - __main__ - INFO - Processing page 1
+2024-11-21 00:33:34,769 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:33:36,537 - __main__ - INFO - Total pages: 2718
+2024-11-21 00:33:36,555 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:33:36,557 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:33:36,557 - __main__ - INFO - Found 15 new jobs on page 1
+2024-11-21 00:33:38,561 - __main__ - INFO - Processing page 2
+2024-11-21 00:33:38,562 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:33:40,478 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:33:40,480 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:33:40,480 - __main__ - INFO - Found 15 new jobs on page 2
+2024-11-21 00:33:42,485 - __main__ - INFO - Processing page 3
+2024-11-21 00:33:42,486 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_3.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:33:44,472 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:33:44,474 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:33:44,474 - __main__ - INFO - Found 15 new jobs on page 3
+2024-11-21 00:33:46,478 - __main__ - INFO - Processing page 4
+2024-11-21 00:33:46,478 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_4.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:33:48,364 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:33:48,365 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:33:48,365 - __main__ - INFO - Found 15 new jobs on page 4
+2024-11-21 00:33:50,366 - __main__ - INFO - Processing page 5
+2024-11-21 00:33:50,367 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_5.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:33:52,260 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:33:52,261 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:33:52,261 - __main__ - INFO - No new jobs found on page 5
+2024-11-21 00:33:54,262 - __main__ - INFO - Processing page 6
+2024-11-21 00:33:54,262 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_6.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:33:56,153 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:33:56,155 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:33:56,155 - __main__ - INFO - Found 15 new jobs on page 6
+2024-11-21 00:33:58,159 - __main__ - INFO - Processing page 7
+2024-11-21 00:33:58,159 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_7.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:00,244 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:00,246 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:00,246 - __main__ - INFO - Found 15 new jobs on page 7
+2024-11-21 00:34:02,251 - __main__ - INFO - Processing page 8
+2024-11-21 00:34:02,252 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_8.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:04,146 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:04,147 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:04,147 - __main__ - INFO - Found 15 new jobs on page 8
+2024-11-21 00:34:06,152 - __main__ - INFO - Processing page 9
+2024-11-21 00:34:06,153 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_9.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:07,893 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:07,894 - __main__ - INFO - Found 13 job listings
+2024-11-21 00:34:07,894 - __main__ - INFO - Found 13 new jobs on page 9
+2024-11-21 00:34:09,894 - __main__ - INFO - Processing page 10
+2024-11-21 00:34:09,895 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_10.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:11,654 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:11,655 - __main__ - INFO - Found 13 job listings
+2024-11-21 00:34:11,655 - __main__ - INFO - Found 13 new jobs on page 10
+2024-11-21 00:34:13,660 - __main__ - INFO - Processing page 11
+2024-11-21 00:34:13,660 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_11.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:15,576 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:15,577 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:15,577 - __main__ - INFO - Found 15 new jobs on page 11
+2024-11-21 00:34:17,582 - __main__ - INFO - Processing page 12
+2024-11-21 00:34:17,582 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_12.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:19,545 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:19,547 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:19,547 - __main__ - INFO - Found 15 new jobs on page 12
+2024-11-21 00:34:21,553 - __main__ - INFO - Processing page 13
+2024-11-21 00:34:21,553 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_13.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:23,699 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:23,701 - __main__ - INFO - Found 14 job listings
+2024-11-21 00:34:23,701 - __main__ - INFO - Found 14 new jobs on page 13
+2024-11-21 00:34:25,703 - __main__ - INFO - Processing page 14
+2024-11-21 00:34:25,703 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_14.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:27,669 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:27,670 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:27,670 - __main__ - INFO - Found 15 new jobs on page 14
+2024-11-21 00:34:29,675 - __main__ - INFO - Processing page 15
+2024-11-21 00:34:29,676 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_15.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:31,532 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:31,533 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:31,533 - __main__ - INFO - Found 15 new jobs on page 15
+2024-11-21 00:34:33,618 - __main__ - INFO - Processing page 16
+2024-11-21 00:34:33,620 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_16.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:34:35,447 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:34:35,448 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:34:35,448 - __main__ - INFO - Found 15 new jobs on page 16
+2024-11-21 00:36:14,864 - __main__ - INFO - Processing page 1
+2024-11-21 00:36:14,864 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:36:16,630 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:36:16,632 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:36:16,632 - __main__ - INFO - Found 15 new jobs on page 1
+2024-11-21 00:36:18,637 - __main__ - INFO - Processing page 2
+2024-11-21 00:36:18,638 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 00:36:20,404 - __main__ - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 00:36:20,405 - __main__ - INFO - Found 15 job listings
+2024-11-21 00:36:20,405 - __main__ - INFO - Found 15 new jobs on page 2
+2024-11-21 00:36:20,414 - __main__ - INFO - Saved 30 new jobs to data/xml/jobs_20241121.xml
+2024-11-21 00:43:12,766 - __main__ - INFO - Processing page 1
+2024-11-21 00:43:12,766 - utils.request_utils - INFO - Fetching URL: https://career.nankai.edu.cn/correcruit/index/p/1.html (Attempt 1/3)
+2024-11-21 00:44:14,240 - __main__ - INFO - Processing page 1
+2024-11-21 00:44:14,240 - utils.request_utils - INFO - Fetching URL: https://career.nankai.edu.cn/correcruit/index/p/1.html (Attempt 1/3)
+2024-11-21 00:44:15,318 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:44:15,318 - __main__ - INFO - Found 20 new jobs on page 1
+2024-11-21 00:44:17,323 - __main__ - INFO - Processing page 2
+2024-11-21 00:44:17,324 - utils.request_utils - INFO - Fetching URL: https://career.nankai.edu.cn/correcruit/index/p/2.html (Attempt 1/3)
+2024-11-21 00:44:18,319 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:44:18,320 - __main__ - INFO - Found 20 new jobs on page 2
+2024-11-21 00:44:20,325 - __main__ - INFO - Processing page 3
+2024-11-21 00:44:20,325 - utils.request_utils - INFO - Fetching URL: https://career.nankai.edu.cn/correcruit/index/p/3.html (Attempt 1/3)
+2024-11-21 00:44:21,399 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:44:21,399 - __main__ - INFO - Found 20 new jobs on page 3
+2024-11-21 00:44:23,404 - __main__ - INFO - Processing page 4
+2024-11-21 00:44:23,405 - utils.request_utils - INFO - Fetching URL: https://career.nankai.edu.cn/correcruit/index/p/4.html (Attempt 1/3)
+2024-11-21 00:44:24,493 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:44:24,493 - __main__ - INFO - Found 20 new jobs on page 4
+2024-11-21 00:44:26,498 - __main__ - INFO - Processing page 5
+2024-11-21 00:44:26,499 - utils.request_utils - INFO - Fetching URL: https://career.nankai.edu.cn/correcruit/index/p/5.html (Attempt 1/3)
+2024-11-21 00:44:27,519 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:44:27,520 - __main__ - INFO - Found 20 new jobs on page 5
+2024-11-21 00:44:27,544 - __main__ - INFO - Saved 100 new jobs to data/xml/nankai_jobs_20241121.xml
+2024-11-21 00:55:00,324 - __main__ - INFO - Processing page 1
+2024-11-21 00:55:00,325 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:05,889 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:05,889 - __main__ - INFO - Found 20 new jobs on page 1
+2024-11-21 00:55:07,893 - __main__ - INFO - Processing page 2
+2024-11-21 00:55:07,894 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:13,052 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:13,052 - __main__ - INFO - Found 20 new jobs on page 2
+2024-11-21 00:55:15,053 - __main__ - INFO - Processing page 3
+2024-11-21 00:55:15,053 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:20,531 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:20,532 - __main__ - INFO - Found 20 new jobs on page 3
+2024-11-21 00:55:22,537 - __main__ - INFO - Processing page 4
+2024-11-21 00:55:22,537 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:27,639 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:27,639 - __main__ - INFO - Found 20 new jobs on page 4
+2024-11-21 00:55:29,644 - __main__ - INFO - Processing page 5
+2024-11-21 00:55:29,646 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:34,664 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:34,664 - __main__ - INFO - Found 20 new jobs on page 5
+2024-11-21 00:55:36,669 - __main__ - INFO - Processing page 6
+2024-11-21 00:55:36,669 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:41,833 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:41,833 - __main__ - INFO - Found 20 new jobs on page 6
+2024-11-21 00:55:43,839 - __main__ - INFO - Processing page 7
+2024-11-21 00:55:43,839 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:48,894 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:48,894 - __main__ - INFO - Found 20 new jobs on page 7
+2024-11-21 00:55:50,899 - __main__ - INFO - Processing page 8
+2024-11-21 00:55:50,899 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:55:56,146 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:55:56,147 - __main__ - INFO - Found 20 new jobs on page 8
+2024-11-21 00:55:58,148 - __main__ - INFO - Processing page 9
+2024-11-21 00:55:58,148 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:03,158 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:03,159 - __main__ - INFO - Found 20 new jobs on page 9
+2024-11-21 00:56:05,164 - __main__ - INFO - Processing page 10
+2024-11-21 00:56:05,164 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:10,299 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:10,299 - __main__ - INFO - Found 20 new jobs on page 10
+2024-11-21 00:56:12,305 - __main__ - INFO - Processing page 11
+2024-11-21 00:56:12,305 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:17,360 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:17,361 - __main__ - INFO - Found 20 new jobs on page 11
+2024-11-21 00:56:19,362 - __main__ - INFO - Processing page 12
+2024-11-21 00:56:19,362 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:24,221 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:24,221 - __main__ - INFO - Found 20 new jobs on page 12
+2024-11-21 00:56:26,227 - __main__ - INFO - Processing page 13
+2024-11-21 00:56:26,227 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:31,494 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:31,494 - __main__ - INFO - Found 20 new jobs on page 13
+2024-11-21 00:56:33,499 - __main__ - INFO - Processing page 14
+2024-11-21 00:56:33,501 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:38,457 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:38,457 - __main__ - INFO - Found 20 new jobs on page 14
+2024-11-21 00:56:40,459 - __main__ - INFO - Processing page 15
+2024-11-21 00:56:40,459 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:45,422 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:45,423 - __main__ - INFO - Found 20 new jobs on page 15
+2024-11-21 00:56:47,429 - __main__ - INFO - Processing page 16
+2024-11-21 00:56:47,430 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:52,490 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:52,491 - __main__ - INFO - Found 20 new jobs on page 16
+2024-11-21 00:56:54,493 - __main__ - INFO - Processing page 17
+2024-11-21 00:56:54,494 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:56:59,966 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:56:59,968 - __main__ - INFO - Found 20 new jobs on page 17
+2024-11-21 00:57:01,973 - __main__ - INFO - Processing page 18
+2024-11-21 00:57:01,973 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:13,918 - __main__ - INFO - Processing page 1
+2024-11-21 00:58:13,919 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:19,562 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:58:19,562 - __main__ - INFO - Found 20 new jobs on page 1
+2024-11-21 00:58:21,563 - __main__ - INFO - Processing page 2
+2024-11-21 00:58:21,564 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:27,312 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:58:27,313 - __main__ - INFO - Found 20 new jobs on page 2
+2024-11-21 00:58:29,319 - __main__ - INFO - Processing page 3
+2024-11-21 00:58:29,320 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:34,287 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:58:34,288 - __main__ - INFO - Found 20 new jobs on page 3
+2024-11-21 00:58:36,293 - __main__ - INFO - Processing page 4
+2024-11-21 00:58:36,293 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:41,280 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:58:41,281 - __main__ - INFO - Found 20 new jobs on page 4
+2024-11-21 00:58:43,287 - __main__ - INFO - Processing page 5
+2024-11-21 00:58:43,287 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:48,105 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:58:48,105 - __main__ - INFO - Found 20 new jobs on page 5
+2024-11-21 00:58:50,108 - __main__ - INFO - Processing page 6
+2024-11-21 00:58:50,109 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:58:55,370 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:58:55,371 - __main__ - INFO - Found 20 new jobs on page 6
+2024-11-21 00:58:57,376 - __main__ - INFO - Processing page 7
+2024-11-21 00:58:57,377 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:59:02,366 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:59:02,368 - __main__ - INFO - Found 20 new jobs on page 7
+2024-11-21 00:59:04,373 - __main__ - INFO - Processing page 8
+2024-11-21 00:59:04,374 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:59:09,414 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:59:09,415 - __main__ - INFO - Found 20 new jobs on page 8
+2024-11-21 00:59:11,419 - __main__ - INFO - Processing page 9
+2024-11-21 00:59:11,420 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:59:16,570 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:59:16,570 - __main__ - INFO - Found 20 new jobs on page 9
+2024-11-21 00:59:18,576 - __main__ - INFO - Processing page 10
+2024-11-21 00:59:18,578 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 00:59:24,232 - __main__ - INFO - Found 20 job listings
+2024-11-21 00:59:24,234 - __main__ - INFO - Found 20 new jobs on page 10
+2024-11-21 00:59:26,294 - __main__ - INFO - Saved 200 new jobs to data/xml/fudan_jobs_20241121.xml
+2024-11-21 01:06:06,163 - __main__ - INFO - Processing page 1/10
+2024-11-21 01:06:06,163 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=0&size=15 (Attempt 1/3)
+2024-11-21 01:06:07,866 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:07,868 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:07,868 - __main__ - INFO - Found 15 new jobs on page 1
+2024-11-21 01:06:09,872 - __main__ - INFO - Processing page 2/10
+2024-11-21 01:06:09,872 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=1&size=15 (Attempt 1/3)
+2024-11-21 01:06:11,423 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:11,423 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:11,423 - __main__ - INFO - Found 15 new jobs on page 2
+2024-11-21 01:06:13,429 - __main__ - INFO - Processing page 3/10
+2024-11-21 01:06:13,429 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=2&size=15 (Attempt 1/3)
+2024-11-21 01:06:15,123 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:15,124 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:15,124 - __main__ - INFO - Found 15 new jobs on page 3
+2024-11-21 01:06:17,129 - __main__ - INFO - Processing page 4/10
+2024-11-21 01:06:17,129 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=3&size=15 (Attempt 1/3)
+2024-11-21 01:06:18,770 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:18,771 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:18,771 - __main__ - INFO - Found 15 new jobs on page 4
+2024-11-21 01:06:20,776 - __main__ - INFO - Processing page 5/10
+2024-11-21 01:06:20,776 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=4&size=15 (Attempt 1/3)
+2024-11-21 01:06:22,516 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:22,517 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:22,517 - __main__ - INFO - Found 15 new jobs on page 5
+2024-11-21 01:06:24,523 - __main__ - INFO - Processing page 6/10
+2024-11-21 01:06:24,525 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=5&size=15 (Attempt 1/3)
+2024-11-21 01:06:26,170 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:26,172 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:26,172 - __main__ - INFO - Found 14 new jobs on page 6
+2024-11-21 01:06:28,177 - __main__ - INFO - Processing page 7/10
+2024-11-21 01:06:28,177 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=6&size=15 (Attempt 1/3)
+2024-11-21 01:06:29,661 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:29,663 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:29,663 - __main__ - INFO - Found 14 new jobs on page 7
+2024-11-21 01:06:31,665 - __main__ - INFO - Processing page 8/10
+2024-11-21 01:06:31,666 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=7&size=15 (Attempt 1/3)
+2024-11-21 01:06:33,340 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:33,341 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:33,341 - __main__ - INFO - Found 11 new jobs on page 8
+2024-11-21 01:06:35,343 - __main__ - INFO - Processing page 9/10
+2024-11-21 01:06:35,344 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=8&size=15 (Attempt 1/3)
+2024-11-21 01:06:36,923 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:36,924 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:36,924 - __main__ - INFO - Found 13 new jobs on page 9
+2024-11-21 01:06:38,929 - __main__ - INFO - Processing page 10/10
+2024-11-21 01:06:38,930 - utils.request_utils - INFO - Fetching URL: https://job.dlut.edu.cn/portals/ZCMoreNews?name=&startDate=&endDate=&page=9&size=15 (Attempt 1/3)
+2024-11-21 01:06:40,733 - utils.request_utils - WARNING - Unexpected content type: application/json;charset=UTF-8
+2024-11-21 01:06:40,735 - __main__ - INFO - Found 15 job listings
+2024-11-21 01:06:40,735 - __main__ - INFO - Found 12 new jobs on page 10
+2024-11-21 01:06:42,782 - __main__ - INFO - Saved 139 new jobs to data/xml/dlut_jobs_20241121.xml
+2024-11-21 01:10:08,433 - __main__ - INFO - Processing page 1/10
+2024-11-21 01:10:08,433 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx (Attempt 1/3)
+2024-11-21 01:10:11,634 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:10:11,634 - __main__ - INFO - Found 10 new jobs on page 1
+2024-11-21 01:10:13,639 - __main__ - INFO - Processing page 2/10
+2024-11-21 01:10:13,640 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx (Attempt 1/3)
+2024-11-21 01:10:16,347 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:10:16,348 - __main__ - INFO - No new jobs found on page 2
+2024-11-21 01:10:16,359 - __main__ - INFO - Saved 10 new jobs to data/xml/sjtu_jobs_20241121.xml
+2024-11-21 01:16:04,176 - __main__ - INFO - Processing page 1/10
+2024-11-21 01:16:04,176 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/1/10 (Attempt 1/3)
+2024-11-21 01:16:21,678 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:21,678 - __main__ - INFO - Found 10 new jobs on page 1
+2024-11-21 01:16:23,684 - __main__ - INFO - Processing page 2/10
+2024-11-21 01:16:23,686 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/2/10 (Attempt 1/3)
+2024-11-21 01:16:26,279 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:26,279 - __main__ - INFO - Found 10 new jobs on page 2
+2024-11-21 01:16:28,282 - __main__ - INFO - Processing page 3/10
+2024-11-21 01:16:28,282 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/3/10 (Attempt 1/3)
+2024-11-21 01:16:30,820 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:30,821 - __main__ - INFO - Found 10 new jobs on page 3
+2024-11-21 01:16:32,826 - __main__ - INFO - Processing page 4/10
+2024-11-21 01:16:32,826 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/4/10 (Attempt 1/3)
+2024-11-21 01:16:35,348 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:35,348 - __main__ - INFO - Found 10 new jobs on page 4
+2024-11-21 01:16:37,353 - __main__ - INFO - Processing page 5/10
+2024-11-21 01:16:37,354 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/5/10 (Attempt 1/3)
+2024-11-21 01:16:39,985 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:39,986 - __main__ - INFO - Found 10 new jobs on page 5
+2024-11-21 01:16:41,990 - __main__ - INFO - Processing page 6/10
+2024-11-21 01:16:41,990 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/6/10 (Attempt 1/3)
+2024-11-21 01:16:44,255 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:44,255 - __main__ - INFO - Found 10 new jobs on page 6
+2024-11-21 01:16:46,260 - __main__ - INFO - Processing page 7/10
+2024-11-21 01:16:46,260 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/7/10 (Attempt 1/3)
+2024-11-21 01:16:49,066 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:49,066 - __main__ - INFO - Found 10 new jobs on page 7
+2024-11-21 01:16:51,071 - __main__ - INFO - Processing page 8/10
+2024-11-21 01:16:51,072 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/8/10 (Attempt 1/3)
+2024-11-21 01:16:53,546 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:53,546 - __main__ - INFO - Found 10 new jobs on page 8
+2024-11-21 01:16:55,586 - __main__ - INFO - Processing page 9/10
+2024-11-21 01:16:55,588 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/9/10 (Attempt 1/3)
+2024-11-21 01:16:58,146 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:16:58,148 - __main__ - INFO - Found 10 new jobs on page 9
+2024-11-21 01:17:00,153 - __main__ - INFO - Processing page 10/10
+2024-11-21 01:17:00,153 - utils.request_utils - INFO - Posting to URL: https://www.job.sjtu.edu.cn/career//zpxx/search/zpxx/10/10 (Attempt 1/3)
+2024-11-21 01:17:02,680 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:17:02,680 - __main__ - INFO - Found 10 new jobs on page 10
+2024-11-21 01:17:04,719 - __main__ - INFO - Saved 100 new jobs to data/xml/sjtu_jobs_20241121.xml
+2024-11-21 01:19:54,313 - __main__ - INFO - Processing page 1/10
+2024-11-21 01:19:54,313 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:19:56,192 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:19:56,193 - __main__ - INFO - Found 10 new jobs on page 1
+2024-11-21 01:19:58,197 - __main__ - INFO - Processing page 2/10
+2024-11-21 01:19:58,198 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:00,408 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:00,415 - __main__ - INFO - Found 10 new jobs on page 2
+2024-11-21 01:20:02,419 - __main__ - INFO - Processing page 3/10
+2024-11-21 01:20:02,420 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:04,374 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:04,374 - __main__ - INFO - Found 10 new jobs on page 3
+2024-11-21 01:20:06,379 - __main__ - INFO - Processing page 4/10
+2024-11-21 01:20:06,379 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:08,369 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:08,370 - __main__ - INFO - Found 10 new jobs on page 4
+2024-11-21 01:20:10,375 - __main__ - INFO - Processing page 5/10
+2024-11-21 01:20:10,376 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:12,259 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:12,260 - __main__ - INFO - Found 10 new jobs on page 5
+2024-11-21 01:20:14,262 - __main__ - INFO - Processing page 6/10
+2024-11-21 01:20:14,263 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:15,909 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:15,909 - __main__ - INFO - Found 10 new jobs on page 6
+2024-11-21 01:20:17,913 - __main__ - INFO - Processing page 7/10
+2024-11-21 01:20:17,914 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:19,836 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:19,837 - __main__ - INFO - Found 10 new jobs on page 7
+2024-11-21 01:20:21,843 - __main__ - INFO - Processing page 8/10
+2024-11-21 01:20:21,845 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:23,628 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:23,628 - __main__ - INFO - Found 10 new jobs on page 8
+2024-11-21 01:20:25,633 - __main__ - INFO - Processing page 9/10
+2024-11-21 01:20:25,634 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:27,275 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:27,275 - __main__ - INFO - Found 10 new jobs on page 9
+2024-11-21 01:20:29,280 - __main__ - INFO - Processing page 10/10
+2024-11-21 01:20:29,281 - utils.request_utils - INFO - Posting to URL: https://tj91.tongji.edu.cn/f/newsCenter/ajax_thisNewsAndSiblingCategoryList (Attempt 1/3)
+2024-11-21 01:20:30,972 - __main__ - INFO - Found 10 job listings
+2024-11-21 01:20:30,972 - __main__ - INFO - Found 10 new jobs on page 10
+2024-11-21 01:20:32,996 - __main__ - INFO - Saved 100 new jobs to data/xml/tongji_jobs_20241121.xml
+2024-11-21 01:28:59,180 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.238:5001
+2024-11-21 01:28:59,180 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 01:29:21,008 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:29:21] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-21 01:29:21,228 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:29:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-21 01:29:24,698 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:29:24] "[33mGET /all HTTP/1.1[0m" 404 -
+2024-11-21 01:30:32,035 - fudan_job_crawl - INFO - Processing page 1
+2024-11-21 01:30:32,035 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 01:30:57,448 - fudan_job_crawl - INFO - Found 20 job listings
+2024-11-21 01:30:57,449 - fudan_job_crawl - INFO - Found 20 new jobs on page 1
+2024-11-21 01:30:59,450 - fudan_job_crawl - INFO - Processing page 2
+2024-11-21 01:30:59,451 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 01:31:08,133 - fudan_job_crawl - INFO - Found 20 job listings
+2024-11-21 01:31:08,133 - fudan_job_crawl - INFO - Found 20 new jobs on page 2
+2024-11-21 01:31:10,135 - fudan_job_crawl - INFO - Processing page 3
+2024-11-21 01:31:10,135 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 01:31:55,802 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.238:5001
+2024-11-21 01:31:55,803 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 01:32:00,824 - fudan_job_crawl - INFO - Processing page 1
+2024-11-21 01:32:00,824 - utils.request_utils - INFO - Posting to URL: https://career.fudan.edu.cn/mobile.php/enrollment/getlist (Attempt 1/3)
+2024-11-21 01:32:58,198 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.238:5001
+2024-11-21 01:32:58,199 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 01:33:01,861 - rss_server - INFO - RSS request received for 华中科技大学
+2024-11-21 01:33:01,987 - hust_job_crawl - INFO - Processing page 1
+2024-11-21 01:33:01,987 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:33:07,843 - hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:33:07,844 - hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:33:07,845 - hust_job_crawl - INFO - Found 15 new jobs on page 1
+2024-11-21 01:33:09,850 - hust_job_crawl - INFO - Processing page 2
+2024-11-21 01:33:09,850 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:33:12,184 - hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:33:12,186 - hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:33:12,186 - hust_job_crawl - INFO - Found 15 new jobs on page 2
+2024-11-21 01:33:12,201 - hust_job_crawl - INFO - Saved 30 new jobs to data/xml/hust_jobs_20241121.xml
+2024-11-21 01:33:12,202 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:33:12] "[33mGET /rss/hust HTTP/1.1[0m" 404 -
+2024-11-21 01:36:11,748 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.238:5001
+2024-11-21 01:36:11,749 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 01:36:16,961 - rss_server - INFO - RSS request received for 华中科技大学
+2024-11-21 01:36:17,072 - hust_job_crawl - INFO - Processing page 1
+2024-11-21 01:36:17,072 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:36:19,210 - hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:36:19,211 - hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:36:19,211 - hust_job_crawl - INFO - Found 15 new jobs on page 1
+2024-11-21 01:36:21,216 - hust_job_crawl - INFO - Processing page 2
+2024-11-21 01:36:21,217 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:36:22,807 - hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:36:22,809 - hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:36:22,809 - hust_job_crawl - INFO - Found 15 new jobs on page 2
+2024-11-21 01:36:22,816 - hust_job_crawl - INFO - Saved 30 new jobs to data/xml/hust_jobs.xml
+2024-11-21 01:36:22,817 - rss_server - ERROR - Exception on /rss/hust [GET]
+Traceback (most recent call last):
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/eddieho/hx_for_hob/app/job_begger/src/rss_server.py", line 48, in get_rss
+    return send_file(
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/helpers.py", line 511, in send_file
+    return werkzeug.utils.send_file(  # type: ignore[return-value]
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/werkzeug/utils.py", line 428, in send_file
+    stat = os.stat(path)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/eddieho/hx_for_hob/app/job_begger/src/data/xml/hust_jobs.xml'
+2024-11-21 01:36:22,822 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:36:22] "[35m[1mGET /rss/hust HTTP/1.1[0m" 500 -
+2024-11-21 01:36:35,210 - rss_server - INFO - RSS request received for 华中科技大学
+2024-11-21 01:36:35,221 - hust_job_crawl - INFO - Processing page 1
+2024-11-21 01:36:35,221 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:37:19,988 - utils.request_utils - ERROR - Error fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2
+2024-11-21 01:37:19,990 - utils.request_utils - ERROR - Exception: HTTPSConnectionPool(host='job.hust.edu.cn', port=443): Read timed out. (read timeout=30)
+2024-11-21 01:37:19,991 - utils.request_utils - INFO - Retrying in 5 seconds...
+2024-11-21 01:37:24,994 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 2/3)
+2024-11-21 01:37:42,507 - hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:37:42,510 - hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:37:42,510 - hust_job_crawl - INFO - Found 15 new jobs on page 1
+2024-11-21 01:37:44,515 - hust_job_crawl - INFO - Processing page 2
+2024-11-21 01:37:44,516 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:37:57,224 - hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:37:57,226 - hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:37:57,226 - hust_job_crawl - INFO - Found 15 new jobs on page 2
+2024-11-21 01:37:57,236 - hust_job_crawl - INFO - Saved 30 new jobs to data/xml/hust_jobs.xml
+2024-11-21 01:37:57,237 - rss_server - ERROR - Exception on /rss/hust [GET]
+Traceback (most recent call last):
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/eddieho/hx_for_hob/app/job_begger/src/rss_server.py", line 48, in get_rss
+    return send_file(
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/flask/helpers.py", line 511, in send_file
+    return werkzeug.utils.send_file(  # type: ignore[return-value]
+  File "/Users/eddieho/hx_for_hob/app/job_begger/.env/lib/python3.9/site-packages/werkzeug/utils.py", line 428, in send_file
+    stat = os.stat(path)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/eddieho/hx_for_hob/app/job_begger/src/data/xml/hust_jobs.xml'
+2024-11-21 01:37:57,237 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:37:57] "[35m[1mGET /rss/hust HTTP/1.1[0m" 500 -
+2024-11-21 01:41:38,007 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.238:5001
+2024-11-21 01:41:38,007 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 01:41:50,543 - rss_server - INFO - RSS request received for 华中科技大学
+2024-11-21 01:41:50,651 - src.hust_job_crawl - INFO - Processing page 1
+2024-11-21 01:41:50,651 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_1.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:41:52,360 - src.hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:41:52,362 - src.hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:41:52,362 - src.hust_job_crawl - INFO - Found 15 new jobs on page 1
+2024-11-21 01:41:54,450 - src.hust_job_crawl - INFO - Processing page 2
+2024-11-21 01:41:54,452 - utils.request_utils - INFO - Fetching URL: https://job.hust.edu.cn/searchJob_2.jspx?fbsj=&q=&type=2 (Attempt 1/3)
+2024-11-21 01:41:56,344 - src.hust_job_crawl - INFO - Found 2 tables with class 'fdhy_tb002'
+2024-11-21 01:41:56,345 - src.hust_job_crawl - INFO - Found 15 job listings
+2024-11-21 01:41:56,346 - src.hust_job_crawl - INFO - Found 15 new jobs on page 2
+2024-11-21 01:41:56,364 - src.hust_job_crawl - INFO - Saved 30 new jobs to data/xml/hust_jobs.xml
+2024-11-21 01:41:56,366 - werkzeug - INFO - 127.0.0.1 - - [21/Nov/2024 01:41:56] "GET /rss/hust HTTP/1.1" 200 -

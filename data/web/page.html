@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<title>华中科技大学大学生就业信息网-招聘信息查询</title>
+	<link type="text/css" rel="stylesheet" href="/r/cms/www/blue/css/thuicon.css">
+	<link rel="stylesheet" href="/css/global.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/r/cms/www/blue/css/maincss.css" />
+	<script language="javascript" type="text/javascript" src="/r/cms/www/blue/js/jquery-3.4.1.min.js"></script>
+	<script language="javascript" type="text/javascript" src="/r/cms/www/blue/js/jquery.easing.1.3.js"></script>
+	<script language="javascript" type="text/javascript" src="/r/cms/front.js"></script>
+	<script language="javascript" type="text/javascript" src="/r/cms/www/blue/js/comm.js"></script>
+	<script language="javascript" type="text/javascript" src="/r/cms/www/blue/js/foucsp.js"></script>
+	<script language="javascript" type="text/javascript" src="/r/cms/www/blue/js/foucsc.js"></script>
+	<script type="text/javascript" src="/thirdparty/My97DatePicker/WdatePicker.js"></script>
+	<script type="text/javascript">
+	function initMenu() {
+		$('#menu ul').hide();
+		$('#menu ul').children('.current').parent().show();
+		//$('#menu ul:first').show();
+		$('#menu li a').click(function() {
+			var checkElement = $(this).next();
+			if ((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+				return false;
+			}
+			if ((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+				$('#menu ul:visible').slideUp('normal');
+				checkElement.slideDown('normal');
+				return false;
+			}
+		});
+	}
+	$(document).ready(function() {
+		initMenu();
+	});	
+	</script>
+	<style type="text/css">
+	.fdhy_tb002 { width:100%; margin:0; }
+	</style>
+</head>
+
+<body>
+<div id="hd01" class="header">
+	<!-- 顶部 -->
+	<div class="top clearfix">
+		<p class="L-float">欢迎您访问华中科技大学就业信息网</p>
+		<p class="R-float">
+			
+		</p>
+	</div>
+	<div class="main">
+		<!-- 标志 -->
+		<div class="logo">
+			<a href="/"><img src="/images/logo.png" alt="华中科技大学就业信息网"/></a>
+		</div>
+		<!-- 搜索 -->
+		<form action="/searchAll*.jspx" target="_blank">
+		<div class="search">
+			<input name="q" type="text" value="请输入关键词" onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'" maxlength="50" autocomplete="off"/>
+			<input type="submit" value="查询"/>
+		</div>
+		</form>
+		<div class="scan"><img src="/images/QR-code.png" alt=""/></div>
+		<div class="clear"></div>
+	</div>
+	<!-- 导航 -->
+	<ul class="clearfix nav">
+		<li class="student">
+			<div class="item">
+				<h3>在校生</h3>
+				<img src="/images/icon_01.png"/>
+				<p style="padding-top:20px;"><a href="/logins.jspx">统一身份认证</a></p>
+			</div>
+			<ul class="clearfix nav-1">
+				<li>
+				<!-- 宣讲会 -->
+					<div class="item"><span>●</span><a href="/xjssd123123/index.htm">招聘会</a></div>
+					<ul class="clearfix nav-2">
+					<!-- 宣讲会信息 -->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=0&fbsj=0">招聘会</a></div></li>
+					<!-- 基层就业宣讲会-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=7&fbsj=0">基层就业宣讲会</a></div></li>
+					<!-- 医科宣讲会信息-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=1&fbsj=0">医科招聘会</a></div></li>
+					<!-- 空中宣讲会-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=5&fbsj=0">空中宣讲会</a></div></li>
+					</ul>
+				</li>
+				<li>
+				<!-- 招聘信息-->
+					<div class="item"><span>●</span><a href="/zpxx123123/index.htm">招聘信息</a></div>
+					<ul class="clearfix nav-2">
+				<!-- 招聘信息-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=2&fbsj=">招聘信息</a></div></li>
+				<!-- 基层就业招聘信息-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=6&fbsj=">基层就业</a></div></li>
+				<!-- 医科招聘信息-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=3&fbsj=">医科招聘信息</a></div></li>
+				<!-- 实习生招聘信息-->
+						<li><div class="item"><span>●</span><a href="/searchJob.jspx?type=4&fbsj=">实习生信息</a></div></li>
+					</ul>
+				</li>
+				<li>
+				
+				<!-- 就业指导-->
+					<div class="item"><span>●</span><a href="/jyzd123123/index.htm">生涯规划</a></div>
+					<ul class="clearfix nav-2">
+					
+				<!--	
+				 预约职业咨询
+						<li><div class="item"><span>●</span><a href="http://job.hust.edu.cn/notice/319215.htm">预约职业咨询</a></div></li>
+				<!-- 就业导报
+						<li><div class="item"><span>●</span><a href="/jydb12312312/index.htm">就业导报</a></div></li>
+				<!-- 求职技巧	
+						<li><div class="item"><span>●</span><a href="/qzjj123/index.htm">求职技巧</a></div></li>
+				<!-- 访谈实录
+						<li><div class="item"><span>●</span><a href="/ftsl123/index.htm">访谈实录</a></div></li>
+				<!-- 职业评测
+						<li><div class="item"><span>●</span><a href="/zypc213/index.htm">职业评测</a></div></li>
+				-->
+				
+				<!-- 信息提供-->
+						<li><div class="item"><span>●</span><a href="/xxtg123/index.htm">信息提供</a></div></li>
+						<!-- 职业评测-->
+						<li><div class="item"><span>●</span><a href="/zycp123/index.htm">职业测评</a></div></li>
+						<!-- 生涯课程-->
+						<li><div class="item"><span>●</span><a href="/sykc123/index.htm">生涯课程</a></div></li>
+						<!-- 生涯辅导-->
+						<li><div class="item"><span>●</span><a href="/syfd123/index.htm">生涯辅导</a></div></li>
+						<!-- 生涯讲座-->
+						<li><div class="item"><span>●</span><a href="/syzj123/index.htm">生涯讲座</a></div></li>
+						<!-- 生涯实践-->
+						<li><div class="item"><span>●</span><a href="/sysj123/index.htm">生涯实践</a></div></li>
+						<!-- 到祖国最需要的地方去-->
+						<li><div class="item"><span>●</span><a href="/dzgzxyddfq123/index.htm">到祖国最需要的地方去</a></div></li>
+						<!-- 	就业典型-->
+						<li><div class="item"><span>●</span><a href="/jydx123/index.htm">就业典型</a></div></li>
+				
+				</ul>
+				</li>
+				<li>
+				<!-- 就业政策-->
+					<div class="item"><span>●</span><a href="/jyzc123123/index.htm">就业政策</a></div>
+					<ul class="clearfix nav-2">
+				<!-- 国家政策-->
+						<li><div class="item"><span>●</span><a href="/gjzc123/index.htm">国家政策</a></div></li>
+				<!-- 地方政策-->
+						<li><div class="item"><span>●</span><a href="/dfzc123/index.htm">地方政策</a></div></li>
+				<!-- 学校政策-->
+						<li><div class="item"><span>●</span><a href="/xxzc123/index.htm">学校政策</a></div></li>
+					</ul>
+				</li>
+				<!-- 办事指南-->
+				<li><div class="item"><span>●</span><a href="/bszn123123/index.htm">办事指南</a></div></li>
+				<!-- 常用下载-->
+				<li><div class="item"><span>●</span><a href="/cyxz/index.htm">常用下载</a></div></li>
+			</ul>
+		</li>
+		<li class="enterprise">
+			<div class="item">
+			<!-- 用户单位-->
+				<h3>单位用户</h3>
+				<img src="/images/icon_02.png"/>
+				<p><a href="/member/index.jspx">登 录</a><a href="/register.jspx">立即注册</a></p>
+			</div>
+			<ul class="clearfix nav-1">
+				
+				<!-- 本科生生源概况-->
+						<li><div class="item"><span>●</span><a href="/bjssygk23213.htm">华中科技大学2025届毕业生生源概况</a></div></li>
+				
+                                <!-- 办事指南-->
+				<li><div class="item"><span>●</span><a href="/dwbszn213/index.htm">办事指南</a></div></li>
+				<!-- 招聘流程-->
+				<li><div class="item"><span>●</span><a href="/zpdwjj213.htm">宣讲会预约流程</a></div></li>
+				<!-- 招聘场地简介-->
+				<li><div class="item"><span>●</span><a href="/zpcdjj1232132.htm">招聘场地简介</a></div></li>
+				<!-- 就业系统使用指南-->
+				<li><div class="item"><span>●</span><a href="http://job.hust.edu.cn/download/260457.htm">就业系统使用指南</a></div></li>
+                                <!-- 常见问题-->
+				<li><div class="item"><span>●</span><a href="/cjwt.htm">常见问题</a></div></li>
+			</ul>
+		</li>
+		<li class="teacher">
+			<div class="item">
+				<h3>教职工</h3>
+				<img src="/images/icon_01.png"/>
+				<p style="padding-top:20px;"><a href="/logins.jspx">统一身份认证</a></p>
+				
+			</div>
+			<!--<ul class="clearfix nav-1">
+			 生涯规划
+				<li><div class="item"><span>●</span><a href="/sygk123123/index.htm">咨询案例</a></div>
+				</li>
+			</ul>-->
+		</li>
+	</ul>
+
+</div>	<div id="ct01" class="container">
+		<div class="main">
+			<div class="sidebar L-float" >
+				<ul id="menu" class="menu">
+					<li><h2>在校生</h2></li>
+					<li>
+					<!-- 宣讲会 -->
+						<a href="/xjssd123123/index.htm">招聘会</a>
+						<ul>
+					<!-- 宣讲会信息 -->
+							<li><a href="/searchJob.jspx?type=0&fbsj=0">招聘会</a></li>
+					<!-- 基层就业宣讲会 -->
+							<li><a href="/searchJob.jspx?type=7&fbsj=0">基层就业宣讲会</a></li>
+					<!-- 医科宣讲会信息 -->
+							<li><a href="/searchJob.jspx?type=1&fbsj=0">医科招聘会</a></li>
+					<!-- 空中宣讲会 -->
+							<li><a href="/searchJob.jspx?type=5&fbsj=0">空中宣讲会</a></li>
+						</ul>
+					</li>
+					<li>
+					<!-- 招聘信息-->
+						<a href="/zpxx123123/index.htm">招聘信息</a>
+						<ul>
+						<!-- 招聘信息-->
+							<li class="current"><a href="/searchJob.jspx?type=2&fbsj=">招聘信息</a></li>
+						<!-- 基层服务-->
+							<li><a href="/searchJob.jspx?type=6&fbsj=">基层就业</a></li>
+						<!-- 医科招聘信息-->
+							<li><a href="/searchJob.jspx?type=3&fbsj=">医科招聘信息</a></li>
+						<!-- 实习生招聘信息-->
+							<li><a href="/searchJob.jspx?type=4&fbsj=">实习生信息</a></li>
+						</ul>
+					</li>
+					<li>
+					<!-- 就业指导-->
+						<a href="/jyzd123123/index.htm">生涯规划</a>
+						<ul>
+						
+						<!-- 
+						预约职业咨询
+							<li><a href="http://job.hust.edu.cn/notice/319215.htm">预约职业咨询</a></li>
+						<!-- 就业导报
+							<li><a href="/jydb12312312/index.htm">就业导报</a></li>
+						<!-- 求职技巧
+							<li><a href="/qzjj123/index.htm">求职技巧</a></li>
+						<!-- 访谈实录
+							<li><a href="/ftsl123/index.htm">访谈实录</a></li>
+						<!-- 职业评测
+							<li><a href="/zypc213/index.htm">职业评测</a></li>
+						-->
+						
+						<!-- 信息提供-->
+						<li><a href="/xxtg123/index.htm">信息提供</a></li>
+						<!-- 职业评测-->
+						<li><a href="/zycp123/index.htm">职业测评</a></li>
+						<!-- 生涯课程-->
+						<li><a href="/sykc123/index.htm">生涯课程</a></li>
+						<!-- 生涯辅导-->
+						<li><a href="/syfd123/index.htm">生涯辅导</a></li>
+						<!-- 生涯讲座-->
+						<li><a href="/syzj123/index.htm">生涯讲座</a></li>
+						<!-- 生涯实践-->
+						<li><a href="/sysj123/index.htm">生涯实践</a></li>
+						<!-- 到祖国最需要的地方去-->
+						<li><a href="/dzgzxyddfq123/index.htm">到祖国最需要的地方去</a></li>
+						<!-- 就业典型-->
+						<li><a href="/jydx123/index.htm">就业典型</a></li>
+						
+						</ul>
+					</li>
+					<li>
+					<!-- 就业政策-->
+						<a href="/jyzc123123/index.htm">就业政策</a>
+						<ul>
+						<!-- 国家政策-->
+							<li><a href="/gjzc123/index.htm">国家政策</a></li>
+						<!-- 地方政策-->
+							<li><a href="/dfzc123/index.htm">地方政策</a></li>
+						<!-- 学校政策-->
+							<li><a href="/xxzc123/index.htm">学校政策</a></li>
+						</ul>
+					</li>
+					<!-- 办事指南-->
+					<li><a href="/bszn123123/index.htm">办事指南</a></li>
+					<!-- 常用下载-->
+					<li><a href="/cyxz/index.htm">常用下载</a></li>
+				</ul>
+			</div>
+			<div class="plate article R-float" style="width:940px;">
+				<div class="plate-head">
+					<h3 class="plate-tit">
+						<ol class="breadcrumb">
+							<li>
+								<span style="background:#2196f3; margin-right:10px;">&nbsp;&nbsp;</span>
+								您现在的位置：<a href="/">首页</a> >
+									<a target="_blank" href="/searchJob.jspx?type=2&fbsj=">招聘信息</a>
+							</li>
+						</ol>
+					</h3>
+				</div>
+				<div class="plate-body">
+					<form action="/searchJob.jspx" target="_self">
+					<table cellpadding='4' cellspacing='0' class='fdhy_tb002'>
+						<tr class="tchrtab_c_tit">
+							<td>查询条件</td>
+						</tr>
+						<tr>
+							<td height="30" >
+								时间：
+								<select name="fbsj" style="width:100px;">
+									<option value="">所有</option>
+									<option value="0" >今天</option>
+									<option value="1" >近一周</option>
+									<option value="2" >近一月</option>
+								</select>
+								&nbsp;关键词：<input name="q" value="" id="txtKey" type="text" maxlength="150" autocomplete="off" class="inp" style="width:200px;">
+								<input type="hidden" name="type" value="2"/>
+								<input type="submit" class="" value="搜索"/ >
+							</td>
+						</tr>
+					</table>
+					</form>
+					<table cellpadding='4' cellspacing='0' class='fdhy_tb002'>
+						<tr>
+							<td><b>招聘信息</b></td>
+							<td><b>发布时间</b></td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class='a_red'>招聘信息</a>]
+								<a href="/zpinfo1/2216839.htm" title="武汉市卫生健康系统 “组团式”招聘活动火热进行中" target="_blank" class='a_red'>武汉市卫生健康系统 “组团式”招聘活动火热进行中</a><br>
+							</td>
+							<td width="120" valign="top">[2024-10-29]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class='a_red'>招聘信息</a>]
+								<a href="/zpinfo1/2215460.htm" title="2025年武汉市属企业管培生招聘公告   " target="_blank" class='a_red'>2025年武汉市属企业管培生招聘公告   </a><br>
+							</td>
+							<td width="120" valign="top">[2024-10-25]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227453.htm" title="淮南职业技术学院" target="_blank" class=''>淮南职业技术学院</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227438.htm" title="武汉传媒学院2024年高层次人才招聘计划" target="_blank" class=''>武汉传媒学院2024年高层次人才招聘计划</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227424.htm" title="崖州湾国家实验室2024年度招聘启事" target="_blank" class=''>崖州湾国家实验室2024年度招聘启事</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227422.htm" title="11月22日华科大宣讲-武汉市卓刀泉中学教育集团-大学生活动中心B座302" target="_blank" class=''>11月22日华科大宣讲-武汉市卓刀泉中学教育集团-大学生活动中心B座302</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227405.htm" title="三一重能2025届校园招聘-招聘简章" target="_blank" class=''>三一重能2025届校园招聘-招聘简章</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227368.htm" title="中建四局投资发展公司2025届秋季校园招聘【建设管理、商务管理】" target="_blank" class=''>中建四局投资发展公司2025届秋季校园招聘【建设管理、商务管理】</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227273.htm" title="湖北航天医院" target="_blank" class=''>湖北航天医院</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227191.htm" title="广东建工财务管理咨询服务有限公司" target="_blank" class=''>广东建工财务管理咨询服务有限公司</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227357.htm" title="江苏理工学院2024年人才招聘简章(下半年)" target="_blank" class=''>江苏理工学院2024年人才招聘简章(下半年)</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227344.htm" title="锦江电子2025校园招聘" target="_blank" class=''>锦江电子2025校园招聘</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227328.htm" title="瑞霆狗（深圳）信息技术有限公司2025校园招聘" target="_blank" class=''>瑞霆狗（深圳）信息技术有限公司2025校园招聘</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227311.htm" title="燕山大学2024年诚聘海内外优秀人才" target="_blank" class=''>燕山大学2024年诚聘海内外优秀人才</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+						<tr>
+							<td>
+								[<a href="/searchJob.jspx?type=2&fbsj=" target="_blank" class=''>招聘信息</a>]
+								<a href="/zpinfo1/2227290.htm" title="广安理工学院筹建处2024年下半年直接考核招聘博士公告" target="_blank" class=''>广安理工学院筹建处2024年下半年直接考核招聘博士公告</a><br>
+							</td>
+							<td width="120" valign="top">[2024-11-20]</td>
+						</tr>
+					</table>
+					<ul class="pagination" style="width:100%; text-align:right;">
+						<li>共40758条记录&nbsp;&nbsp;
+<a href="searchJob.jspx?type=2&fbsj=">首页</a>&nbsp;&nbsp;
+上一页
+			
+				 <li  class="active"><a>1</a></li>
+									<li><a href="searchJob_2.jspx?type=2&fbsj=">2</a></li>
+									<li><a href="searchJob_3.jspx?type=2&fbsj=">3</a></li>
+									<li  class="active"><a href="searchJob_4.jspx?type=2&fbsj=">...</a></li>
+				 <li><a href="searchJob_2718.jspx?type=2&fbsj=">2718</a></li>
+<a href="searchJob_2.jspx?type=2&fbsj=">下一页</a>&nbsp;&nbsp;
+<a href="searchJob_2718.jspx?type=2&fbsj=">末页</a>
+
+
+
+
+
+
+
+
+
+</li>
+					</ul>
+					<div class='clear'></div>
+				</div>
+			</div>
+			<div class='clear'></div>
+		</div>
+	</div>
+<div id="ft01" class="footer">
+	<div class="contact">
+		<div class="foot">
+			<div class="unit">
+				<h2>就业指导与服务中心</h2>
+				<p>
+					<span>工作日</span>
+					<span>上午：</span>08：00~12：00
+					<span>下午：</span>14：30~17：30
+				</p>
+				<p><span>电&nbsp;&nbsp;话：</span>&nbsp;&nbsp;027-87542328、87543914</p>
+				<p><span>邮&nbsp;&nbsp;箱：</span>&nbsp;&nbsp;job@hust.edu.cn</p>
+				<p><span>地&nbsp;&nbsp;址：</span>&nbsp;&nbsp;大学生活动中心A座一楼</p>
+			</div>
+			<div class="unit"></div>
+			<div class="unit">
+				<h2>医科办公室</h2>
+				<p>
+					<span>工作日</span>
+					<span>上午：</span>08：00~12：00
+					<span>下午：</span>14：30~17：30
+				</p>
+				<p>
+					<span>电&nbsp;&nbsp;话：</span>&nbsp;&nbsp;027-83692913
+					<span>传&nbsp;&nbsp;真：</span>&nbsp;&nbsp;027-83692924
+				</p>
+				<p><span>邮&nbsp;&nbsp;箱：</span>&nbsp;&nbsp;tjjyb@126.com</p>
+				<p><span>地&nbsp;&nbsp;址：</span>&nbsp;&nbsp;医学院行政楼三楼307室</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="foot">
+			<p class="support">
+				就业管理系统 | 
+				<a href="/admin/cms/index.do">管理</a><br>
+				技术支持：武汉金教信息技术有限公司
+			</p>
+			<p class="ownership">
+				
+				版权所有 © 华中科技大学就业指导与服务中心 
+			</p>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div></body>
+</html>

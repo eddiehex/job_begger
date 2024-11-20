@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>复旦大学学生职业发展教育服务中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <script>/*@cc_on window.location.href="http://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(window.location.href); @*/</script>
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/some.css">
+    <link rel="stylesheet" href="../css/zhaopin.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../js/polyfill.min.js"></script>
+    <script src="../js/jquery-base.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/skrollr.min.js"></script>
+    <script src="../js/lee.min.js"></script>
+    <link rel="stylesheet" href="../css/jquery.idcode.css">
+    <script src="../js/jquery.idcode.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/page2.js"></script>
+    <script src="../js/vue.min.js"></script>
+    <script src="../js/wx_get_openid.js"></script>
+</head>
+
+<body style="background:#f3f3f3;">
+    <div class="header"></div>
+    <div class="is_"></div>
+    <!-- banner -->
+    <div class="banner banner_all" style="position: relative;">
+        <img src="../image/newbanner.png" alt="">
+    </div>
+    <!-- 实习列表-->
+    <div class="xz-container">
+        <template>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="n_left">
+                            <ul>
+                                <div class="bgcolor">校招公告
+                                    <span></span>
+                                </div>
+                                <template v-if="type1 == type">
+                                    <li class="qizhao" style="background:#eee;">
+                                        <a :href="'zhaopinList.html?type='+type1" class="fcolor">
+                                            <span class="bgcolor"></span>
+                                            企招
+                                        </a>
+                                        <span class="hover"></span>
+                                    </li>
+                                </template>
+                                <template v-else>
+                                    <li class="qizhao">
+                                        <a :href="'zhaopinList.html?type='+type1">
+                                            企招
+                                        </a>
+                                        <span class="hover"></span>
+                                    </li>
+                                </template>
+                                <template v-if="type2 == type">
+                                    <li class="gongzhao" style="background:#eee;">
+                                        <a :href="'zhaopinList.html?type='+type2" class="fcolor">
+                                            <span class="bgcolor"></span>
+                                            公招
+                                        </a>
+                                        <span class="hover"></span>
+                                    </li>
+                                </template>
+                                <template v-else>
+                                    <li class="gongzhao">
+                                        <a :href="'zhaopinList.html?type='+type2">
+                                            公招
+                                        </a>
+                                        <span class="hover"></span>
+                                    </li>
+                                </template>
+    
+                                <template v-if="type3 == type">
+                                     <li class="shizhao" style="background:#eee;">
+                                        <a :href="'zhaopinList.html?type='+type3" class="fcolor">
+                                            <span class="bgcolor"></span>
+                                            事招
+                                        </a>
+                                        <span class="hover"></span>
+                                    </li>
+                                </template>
+                                 <template v-else>
+                                     <li class="shizhao">
+                                        <a :href="'zhaopinList.html?type='+type3">
+                                            事招
+                                        </a>
+                                        <span class="hover"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                            <div style="height:15px;background: #f3f3f3;"></div>
+                            <ol class="redian" v-if="redian.length > 0">
+                                <div class="rd_top">
+                                    <span class="bgcolor fcolor1">H</span>
+                                    <p class="fcolor">
+                                        <template v-if="type1 == type">热门企招</template>
+                                        <template v-if="type2 == type">热门公招</template>
+                                        <template v-if="type3 == type">热门事招</template>
+                                    </p>
+                                </div>
+                                <li v-for="redian_ in redian">
+                                    <a :href="'xiaozhao.html?id='+redian_.id+'& type='+redian_.enrollment_type" :title="redian_.title">
+                                        <template v-if="redian_.istop == '1'">
+                                            <div style="width:100%;" v-html="'<i class='+'istop'+'>【Top】</i>'+redian_.title" :title="redian_.title"></div>
+                                        </template>
+                                            <template v-if="redian_.istop == '2'">
+                                            <div style="width:100%;" v-html="redian_.title" :title="redian_.title"></div>
+                                        </template>
+                                        <p>
+                                            <img src="../image/png/shi_.png" alt="">&nbsp;&nbsp;{{redian_.addtime3}}
+                                            <span style="float: right">
+                                                <!-- <i class="fa fa-eye"></i>&nbsp;&nbsp;{{redian_.viewcount}} -->
+                                            </span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-9">
+                        <div class="n_right">
+                            <a href="../index.html">首页</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;
+                            <template v-if="type1 == type">企招</template>
+                            <template v-else-if="type2 == type">公招</template>
+                            <template v-else-if="type3 == type">事招</template>
+                            <ol class="ollist">
+                                <template v-for="place in news_place_one">
+                                    <!-- <template v-if="place.content_url == ''"> -->
+                                        <a :href="'xiaozhao.html?id='+place.id+'&type='+place.enrollment_type" target="_blank" :title="place.title" class="animated fadeInUp">
+                                            <div class="ol_left">
+                                                <p>{{place.addtime2}}</p>
+                                                <span>{{place.addtime1}}</span>
+                                            </div>
+                                            <div class="ol_right">
+                                                <p class="ol_title" :title="place.title">
+                                                    <template v-if="place.istop == '1'">
+                                                        <span style="width:100%;float:left;display:block;text-overflow : ellipsis;white-space : nowrap; overflow : hidden; ">
+                                                            <i class="istop">【Top】</i>
+                                                            {{place.title}}
+                                                        </span>
+                                                    </template>
+                                                    <template v-if="place.istop == '2'">
+                                                        <span style="width:100%;float:left;display:block;text-overflow : ellipsis;white-space : nowrap; overflow : hidden; ">{{place.title}}</span>
+                                                    </template>
+                                                </p>
+                                                <p class="ol_detial">
+                                                    发布机构：{{place.create_name | is_wxempty}}
+                                                    <span class="eye_l" style="float:right;color: #7d7d7d;"> 
+                                                        <!-- <i class="fa fa-eye"></i> {{place.viewcount}} -->
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                </template>
+                               <div class="pages_wrapper" id="footpage">
+                                    <!--分页内容-->
+                                </div>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+    <div class="toTop bgcolor4">
+            <span class="glyphicon glyphicon-hand-up"></span>
+            TOP
+        </div>
+    <div class="footer"></div>
+<script>
+    $(function () {
+      $(".header").load("../Public/header.html");
+      $(".footer").load("../Public/footer.html");
+    })
+    var school_id = sessionStorage.getItem('school_id');
+    var type1      = sessionStorage.getItem('enrollment_type1');
+    var type2      = sessionStorage.getItem('enrollment_type2');
+    var type3      = sessionStorage.getItem('enrollment_type3');
+    var type = $.getUrlParam('type');
+    var vm = new Vue({
+        el: ".xz-container",
+        data: {
+                news_place_one: [],
+                total: '',
+                pagesize: '',
+                page: '',
+                type1: type1,
+                type2: type2,
+                type3: type3,
+                redian:[],
+        },
+        methods: {
+
+        },
+        updated: function () {
+            var onPagechange = function (page) {
+                // console.log('当前点击页码', page);
+                window.location.href = $.UrlUpdateParams(window.location.href, 'page', page);
+            }
+            var obj = {
+                wrapid: 'footpage', //页面显示分页器容器id
+                total: vm.total, //总条数
+                pagesize: vm.pagesize, //每页显示10条
+                currentPage: vm.page, //当前页
+                onPagechange: onPagechange,
+                //btnCount:7 页数过多时，显示省略号的边界页码按钮数量，可省略，且值是大于5的奇数
+            }
+            if (vm.total > 0) {
+                pagination.init(obj);
+                $(".allpages").text(vm.total);
+            }
+            $(".n_right>ol>a").hover(function () {
+                $(this).stop().animate({"margin-left":"-10px"},400);
+                $(this).find(".ol_left>p").attr("class", "bgcolor fcolor1");
+                $(this).find(".ol_left>span").attr("class", "fcolor").css("background", "#d2d2d2");
+                $(this).find(".ol_title").attr("class", "ol_title fcolor");
+                $(this).find(".ol_detial").css("color", "#000");
+                $(this).find(".eye_l").css("color", "#000");
+            }, function () {
+                $(this).stop().animate({"margin-left":"0px"},400);
+                $(this).find(".ol_left>p").attr("class", "bgcolor1 fcolor");
+                $(this).find(".ol_left>span").attr("class", "").css("background", "#fff");
+                $(this).find(".ol_title").attr("class", "ol_title");
+                $(this).find(".ol_detial").css("color", "#7d7d7d");
+                $(this).find(".eye_l").css("color", "#7d7d7d");
+            })
+        },
+        filters: {
+            is_wxempty:function(obj){
+                if(obj == null || obj=="" || obj == undefined || obj == "0"){
+                    return "用人单位发布";
+                }else{
+                    return obj;
+                }
+            }
+        }
+    })
+    var page = $.getUrlParam('page');
+    if (is_wxempty(page)) {
+        page = 1;
+    }
+    var size = 20;
+    // 获取热点
+    http('POST', '/enrollment/getlist', {"type":type,"school_id":school_id,"page":page,"size":5,'isorder':1}, function (e) {
+        for (var i = 0; i <e.data.list.length; i++) {
+            e.data.list[i]['addtime3'] = timestampToTime(e.data.list[i].addtime,1);
+            vm.redian.push(e.data.list[i]);
+        }
+    })
+    //获取列表
+    http('POST', '/enrollment/getlist', {"type":type,"school_id":school_id,"page":page,"size":size}, function (e) {
+        for (var i = 0; i < e.data.list.length; i++) {
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,6);
+            e.data.list[i]['addtime2'] = timestampToTime(e.data.list[i].addtime,7);
+            vm.news_place_one.push(e.data.list[i]);
+        }
+        if (e.data.list.length == 0) {
+            $(".ollist").html(
+                "<div style='width:312px;margin:auto;margin-top:100px;'><img src='../image/is_kong.png' style='width:100%;'></div>"
+            )
+        } else {
+            vm.total = e.data.count;
+            vm.pagesize = e.data.size;
+            vm.page = e.data.page;
+            $(".weui_main").find("div").remove();
+        }
+    });
+</script>
+</body>
+
+</html>
