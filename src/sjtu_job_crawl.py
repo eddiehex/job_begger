@@ -26,7 +26,7 @@ def parse_job_list(json_content):
                     'publish_date': job_item['fbrq'],
                     'deadline': job_item.get('zpjzrq', ''),
                     'type': '招聘信息',
-                    'url': f"https://www.job.sjtu.edu.cn/career/zpxx/zpxx/view?id={job_item['zpxxid']}",
+                    'url': f"https://www.job.sjtu.edu.cn/career/zpxx/view/zpxx/{job_item['zpxxid']}",
                     'location': f"{job_item.get('szssmc', '')} {job_item.get('szsmc', '')}".strip(),
                     'company_type': job_item.get('xzyjmc', ''),
                     'industry': job_item.get('hyyjmc', ''),

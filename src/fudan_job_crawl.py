@@ -34,7 +34,7 @@ def parse_job_list(json_content):
                     'publish_date': publish_date,
                     'location': job_item.get('province_id_name', ''),
                     'type': '招聘信息',
-                    'url': f"https://career.fudan.edu.cn/detail/enrollment/{job_item['id']}"
+                    'url': f"https://career.fudan.edu.cn/Zhaopin/xiaozhao.html?id={job_item['id']}"
                 }
                 
                 # Add remarks if available

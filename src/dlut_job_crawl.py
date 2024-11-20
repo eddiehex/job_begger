@@ -25,7 +25,7 @@ def parse_job_list(json_content):
                     'publish_date': job_item['publishDate'],
                     'recruiter_date': job_item['recruiterDate'],
                     'type': '招聘信息',
-                    'url': f"https://job.dlut.edu.cn/portals/detail.html?id={job_item['id']}",
+                    'url': f"https://job.dlut.edu.cn/portals/newspage.html?id={job_item['id']}",
                     'views': str(job_item['pv'])
                 }
                 

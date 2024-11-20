@@ -1,6 +1,7 @@
-from email.utils import formatdate
 from bs4 import BeautifulSoup
+from email.utils import formatdate
 from datetime import datetime
+
 def save_jobs_to_xml(jobs, output_path, school_name, mode='w'):
     """Save jobs to XML file in RSS format"""
     if mode == 'a' and output_path.exists():
