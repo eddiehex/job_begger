@@ -53,11 +53,12 @@ def parse_job_list(html_content):
             
             # Create job dict
             job = {
-                'title': title,
+                'title': company_parts[0].strip(),
                 'url': url,
                 'publish_date': publish_date,
                 'company': company_parts[0].strip(),
                 'location': company_parts[1].strip() if len(company_parts) > 1 else '',
+                'description': title,
                 'type': '招聘信息'
             }
             
